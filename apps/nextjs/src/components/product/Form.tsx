@@ -32,14 +32,14 @@ export default () => {
       action={addProduct}
       className="max-w-lg mx-auto p-8 bg-white shadow-sm rounded-lg border border-grey-100"
     >
-      <Input label="Name" name="name" type="text" error={errors?.["name"]} />
+      <Input label="Name*" name="name" type="text" error={errors?.["name"]} />
       <Textarea
-        label="Description"
+        label="Description*"
         name="description"
         error={errors?.["description"]}
       />
       <Input
-        label="Price"
+        label="Price*"
         name="price"
         type="number"
         error={errors?.["price"]}
