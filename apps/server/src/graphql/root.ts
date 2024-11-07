@@ -1,6 +1,6 @@
 import { TProduct, TProductInput } from "../types";
 
-let products = [
+let products: TProduct[] = [
   {
     id: 1,
     name: "EcoWave Reusable Water Bottle",
