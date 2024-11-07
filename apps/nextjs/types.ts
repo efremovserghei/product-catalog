@@ -5,8 +5,9 @@ type TProduct = {
   price: string;
 };
 
+type TProductInput = Omit<TProduct, "id">;
+
 type TGraphQLResponse<T> = {
   data?: T;
   error?: string;
 };
-
